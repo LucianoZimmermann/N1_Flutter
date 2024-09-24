@@ -112,6 +112,14 @@ class _MyHomePageState extends State<MyHomePage> {
                   labelText: 'Título do Filme/Série',
                 ),
               ),
+              TextField(
+                controller: _comentarioController,
+                decoration: const InputDecoration(
+                  labelText: 'Comentário',
+                ),
+              ),
+              const SizedBox(height: 20),
+              Text('Nota: ${_nota.toStringAsFixed(1)}'),
               Slider(
                 value: _nota,
                 min: 0,
@@ -125,14 +133,6 @@ class _MyHomePageState extends State<MyHomePage> {
                 },
                 activeColor: Theme.of(context).colorScheme.secondary,
               ),
-              Text('Nota: ${_nota.toStringAsFixed(1)}'),
-              TextField(
-                controller: _comentarioController,
-                decoration: const InputDecoration(
-                  labelText: 'Comentário',
-                ),
-              ),
-              const SizedBox(height: 20),
               ElevatedButton(
                 onPressed: _adicionarClassificacao,
                 style: ElevatedButton.styleFrom(
