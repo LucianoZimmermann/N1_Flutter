@@ -66,16 +66,16 @@ Container(
 
 As classificações são armazenadas em uma lista de mapas, onde cada mapa contém:
 - `titulo`: String com o nome do filme/série.
-- `nota`: Double representando a nota de 0 a 10.
 - `comentario`: String com o comentário do usuário.
+- `nota`: Double representando a nota de 0 a 10.
 
 ### Exemplo de Estrutura:
 
 ```dart
 {
   'titulo': 'Interstellar',
-  'nota': 9.5,
-  'comentario': 'Filme espetacular com ótimos efeitos visuais!'
+  'comentario': 'Filme espetacular com ótimos efeitos visuais!',
+  'nota': 9.5
 }
 ```
 
@@ -97,16 +97,3 @@ As classificações são armazenadas em uma lista de mapas, onde cada mapa cont�
 /lib
   └── main.dart       # Código principal do aplicativo
 ```
-
-## Customizações Futuras
-
-Algumas ideias para expandir o projeto:
-
-- **Editar e excluir classificações**: Adicionar funcionalidades para editar uma classificação existente ou excluí-la da lista.
-- **Integração com banco de dados**: Armazenar as classificações em um banco de dados local ou na nuvem para persistência de dados.
-- **Compartilhamento de classificações**: Permitir que o usuário compartilhe suas classificações nas redes sociais.
-- **Suporte a imagens**: Permitir adicionar imagens das capas dos filmes/séries.
-
-## Conclusão
-
-Este aplicativo é uma ótima base para quem deseja aprender Flutter enquanto desenvolve uma aplicação prática de classificação de filmes e séries. Ele cobre desde a manipulação de estados com StatefulWidgets até a criação de temas personalizados e layouts complexos com gradientes e listas dinâmicas.
