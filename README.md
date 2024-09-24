@@ -97,3 +97,8 @@ As classificações são armazenadas em uma lista de mapas, onde cada mapa cont�
 /lib
   └── main.dart       # Código principal do aplicativo
 ```
+
+## Prints
+
+![Prints](imagens/Captura de Tela (5).png)
+![Prints](imagens/Captura de Tela (4).png)
