@@ -1,3 +1,12 @@
+# Alunos:
+
+Luciano Luís Zimmermann
+Yuri Jovêncio Pereira
+
+# Curso:
+
+4a Fase de Engenharia de Software, Católica de Jaraguá do Sul
+
 
 # App de Notas de Filmes e Séries
 
