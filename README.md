@@ -100,5 +100,8 @@ As classificações são armazenadas em uma lista de mapas, onde cada mapa cont�
 
 ## Prints
 
-![Prints](imagens/Captura de Tela (5).png)
-![Prints](imagens/Captura de Tela (4).png)
+![Prints](./imagens/Captura%20de%20Tela%20(5).png)
+![Prints](./imagens/Captura%20de%20Tela%20(4).png)
+![Prints](./imagens/Captura%20de%20Tela%20(6).png)
+
+
